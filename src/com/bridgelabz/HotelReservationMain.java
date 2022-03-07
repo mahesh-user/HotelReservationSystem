@@ -2,6 +2,8 @@ package com.bridgelabz;
 
 public class HotelReservationMain {
     public static void main(String[] args) {
-        System.out.println("welcome to hotel reservation");
+        System.out.println("Welcome to Hotel Reservation");
+        HotelReservationSystem hotel=new HotelReservationSystem();
+        hotel.addingHotelsToList();
     }
 }
