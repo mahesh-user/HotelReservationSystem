@@ -12,10 +12,11 @@ public class Hotel {
     }
 
     public boolean checkHotelAdd(HotelReservationSystem hotel) {
+
         return hotelDetails.add(hotel);
     }
 
-    public int findingCheapestHotel(){
+    public static int findingCheapestHotel(){
         int LakeWoodRate = 110; int BridgeWoodRate = 160; int Ridgewood = 220;
         int cheapestHotel = (LakeWoodRate>BridgeWoodRate) ?
                 (Math.min(LakeWoodRate, Ridgewood)) :
